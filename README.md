@@ -100,7 +100,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
 | `sponsor-row`, per sponsor of one newsletter | $0.004 | $0.0038 | $0.0036 | $0.0034 |
-| `brand-search`, brand mode only, once per run | $0.06 | $0.057 | $0.054 | $0.051 |
+| `brand-search`, brand mode only, once per run | $0.065 | $0.06175 | $0.0585 | $0.05525 |
 | `apify-actor-start`, per run start | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
 
 Newsletter summary rows, no results rows, and error rows are free. The brand search event is charged when at least one candidate newsletter was read.
