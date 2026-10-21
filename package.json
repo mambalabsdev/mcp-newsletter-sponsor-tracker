@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-newsletter-sponsor-tracker",
+  "version": "1.0.0",
+  "description": "MCP server for Newsletter Sponsor Tracker. Find who sponsors a newsletter, or which newsletters a brand sponsors, from public Substack, beehiiv, and RSS archives: sponsor, domain, placements, and issue links. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-newsletter-sponsor-tracker": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "newsletter",
+    "newsletter-sponsors",
+    "sponsorship",
+    "substack",
+    "beehiiv",
+    "apify",
+    "clay",
+    "lead-generation"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/newsletter-sponsor-tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-newsletter-sponsor-tracker"
+}

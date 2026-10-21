@@ -1,0 +1,32 @@
+{
+  "name": "mcp-newsletter-sponsor-tracker",
+  "displayName": "Newsletter Sponsor Tracker",
+  "version": "1.0.0",
+  "description": "MCP server for Newsletter Sponsor Tracker. Find who sponsors a newsletter, or which newsletters a brand sponsors, from public Substack, beehiiv, and RSS archives: sponsor, domain, placements, and issue links. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "newsletter",
+    "newsletter-sponsors",
+    "sponsorship",
+    "substack",
+    "beehiiv",
+    "apify"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "newsletter",
+    "newsletter-sponsors",
+    "sponsorship",
+    "substack",
+    "apify"
+  ],
+  "mcpServers": ".mcp.json"
+}

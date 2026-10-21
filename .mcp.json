@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-newsletter-sponsor-tracker": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-newsletter-sponsor-tracker"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
