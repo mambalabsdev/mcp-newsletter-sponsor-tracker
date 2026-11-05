@@ -1,7 +1,7 @@
 {
   "name": "mcp-newsletter-sponsor-tracker",
   "displayName": "Newsletter Sponsor Tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Newsletter Sponsor Tracker. Find who sponsors a newsletter, or which newsletters a brand sponsors, from public Substack, beehiiv, and RSS archives: sponsor, domain, placements, and issue links. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
